@@ -1,7 +1,7 @@
 # Image Gallery Search Website ( React )
 > This is a showcase react project, that allows you to search images from Unsplash.com and view them as separate blog posts.
 
-Live Demo: 
+Live Demo: [https://react-image-gallery-build.glitch.me/](https://react-image-gallery-build.glitch.me)
 
 ## Installation
 ```sh
