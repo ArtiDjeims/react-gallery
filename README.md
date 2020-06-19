@@ -21,9 +21,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 This project uses React, React Router, JavaScript (Class Components, Functional Components, PropTypes, ES6^...), CUSTOM CSS... This website allows you to search for images by keywords, you can click on each image to view it in its own section. You can also go to /fullscreen to open a FullScreen Slide Show. The website is adapted and has a version for PC, Tablet, and Mobile.
 
 PC Preview 
+
 ![preview pc](https://i.imgur.com/CbT0JHP.png)
 
-Mobile Preview 
+Mobile Preview
+
 ![preview mobile](https://i.imgur.com/Q7HbsmR.png)
 
 ## Meta
