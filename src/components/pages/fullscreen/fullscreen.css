@@ -1,0 +1,39 @@
+.fullscreen {
+    display: flex;
+}
+
+.fullscreen img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    animation: smoothContent 3s;
+}
+
+.fullscreen .footer.left, .fullscreen .footer.right {
+    position: absolute;
+    bottom: 2%;
+    color: #000;
+}
+
+.fullscreen .footer.left {
+    left: 2%;
+    background: #ffffff75;
+    padding: 8px 11px;
+    font-size: 15px;
+}
+
+.fullscreen .footer.right {
+    right: 2%;
+    font-size: 13px;
+}
+
+@keyframes smoothContent {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

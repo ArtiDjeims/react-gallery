@@ -1,0 +1,58 @@
+.menu_content {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    line-height: 33px;
+    animation: smoothContent 1.5s;
+}
+
+.menu_content a {
+    color: pink;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
+}
+
+.menu_content h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    font-style: italic;
+}
+
+.menu_content h1.colorful {
+    color: blue;
+    animation: moving 3.5s infinite;
+}
+
+@keyframes moving {
+    0% {
+        transform: translateY(-45px);
+    }
+    50% {
+        transform: translateY(45px);
+    }
+    100% {
+        transform: translateY(-45px);
+    }
+}
+
+@keyframes smoothContent {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-device-width: 480px) {
+    .menu_content {
+        animation: smoothContent 2s;
+    }
+    .menu_content h1 {
+        font-size: 42px;
+    }
+}

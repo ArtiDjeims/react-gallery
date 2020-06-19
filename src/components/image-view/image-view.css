@@ -1,0 +1,23 @@
+.image_view {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5%;
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+    overflow-x: auto;
+    right: 0;
+    transition: transform 1s;
+    z-index: 11;
+}
+
+.image_view img {
+    width: 100%;
+}
+
+.image_view p {
+    cursor: pointer;
+}

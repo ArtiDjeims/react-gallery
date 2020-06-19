@@ -1,0 +1,19 @@
+.gallery_block {
+    /* display: flex;
+    flex: 1 1 auto;
+    width: 33.3%; */
+}
+
+.gallery_block img {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.gallery_block img:hover {
+    filter: brightness(0.3);
+}
